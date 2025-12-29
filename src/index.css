@@ -1,0 +1,27 @@
+.row-cell {
+  border-radius: 5px;
+  border: 1px solid Black;
+  font-size: 2rem;
+  font-family: monospace;
+  padding: 0;
+  min-width: 3rem;
+}
+
+.control {
+  min-width: 5rem;
+}
+
+.row-cell.correct {
+  background-color: LightGreen;
+}
+
+.row-cell.wrong-place {
+  background-color: LightCoral;
+}
+
+.results {
+  background-color: Wheat;
+  border-radius: 5px;
+  min-height: 100px;
+
+}
